@@ -2,4 +2,4 @@ DOMAIN-SUFFIX, antpool.com
 DOMAIN-SUFFIX, poolin.me
 DOMAIN-SUFFIX, poolin.com
 DOMAIN-SUFFIX, ethermine.org
-DOMAIN-SUFFIX, eth.ss.poolin.me
+MATCH, eth.ss.poolin.me
