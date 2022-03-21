@@ -1,7 +1,8 @@
 DOMAIN-SUFFIX, cygames.jp
 DOMAIN-KEYWORD, umamusume
-DOMAIN, prd-storage-umamusume.akamaized.net
-DOMAIN, prd-storage-app-umamusume.akamaized.net
-DOMAIN, prd-storage-gamem-umamusume.akamaized.net
-DOMAIN, apis.game.starlight-stage.jp
 DOMAIN-KEYWORD, games.dmm
+DOMAIN-KEYWORD, dmm.com
+DOMAIN-KEYWORD, dmm.co.jp
+DOMAIN-KEYWORD, dmm-extension.com
+DOMAIN-KEYWORD, dmmgames.com
+DOMAIN-KEYWORD, dmm.hk
