@@ -6,6 +6,8 @@ DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmmgames.com
 DOMAIN-SUFFIX,dmm.hk
 DOMAIN-SUFFIX,dmm-extension.com
+# >> erogamescape
+DOMAIN-SUFFIX,erogamescape.dyndns.org
 # >> GBF
 DOMAIN-SUFFIX,granbluefantasy.jp
 DOMAIN-SUFFIX,mbga.jp
