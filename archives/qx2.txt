@@ -40,7 +40,7 @@ https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Bilibili_CC
 #>>>>>>>>>>>软件增强
 https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/BaiduCloud.conf, tag=baidupan
 https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=wechat
-#https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf, tag=Bilibili换区脚本
+https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf, tag=Bilibili换区脚本
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/TikTok.conf, tag=Tiktok
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix
@@ -69,7 +69,8 @@ https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf, tag=�
 https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Function/Q-Search.conf, tag=Safari超级搜索
 https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf, tag=Google自动翻页
 
-
+#boxjs
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJS
 
 [server_local]
 
@@ -171,9 +172,6 @@ final, proxy
 
 
 [http_backend]
-# > Boxjs设置，改为使用http backend方式，访问地址改为http://127.0.0.1:9999，更新配置后请长按风车-更新，然后重启代理
-https://raw.githubusercontent.com/chavyleung/scripts/master/chavy.box.js, host=boxjs.com, tag=BoxJS, path=^/, enabled=true
-
 
 
 
