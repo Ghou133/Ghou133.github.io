@@ -79,8 +79,8 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 [server_remote]
 
-https://proxies.bihai.cf/vmess/sub?filter=r, tag=TemporaryUse, update-interval=172800, opt-parser=true, enabled=false
-https://openit.ml/Quanx.conf, tag=TemporaryUse, update-interval=172800, opt-parser=true, enabled=false
+https://proxies.bihai.cf/vmess/sub?filter=r, tag=TemporaryUse, update-interval=172800, opt-parser=true, enabled=true
+https://openit.ml/Quanx.conf, tag=TemporaryUse, update-interval=172800, opt-parser=true, enabled=true
 
 
 
