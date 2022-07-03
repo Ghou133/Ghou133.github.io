@@ -4,36 +4,17 @@
 
 [general]
 
-# > 用于节点延迟测试
-# server_check_url= http://www.qualcomm.cn/generate_204
-# > 用于设置图标显示
-#profile_img_url=https://github.githubassets.com/images/modules/site/integrators/google.png
-# > 用于Check节点IP地址
-# geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
 # > 功能强大的解析器，用于引用资源的转换
 resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 # > 下列路径将不经过QuanX的处理
 excluded_routes=239.255.255.250/32, 24.105.30.129/32, 185.60.112.157/32, 185.60.112.158/32, 182.162.132.1/32
 udp_whitelist=1-442, 444-65535
-# > 第一个filter为4g模式开启规则分流，第二个filter为其他wifi下开启规则分流，第三个wifi1修改成你路由器翻墙的wifi名开启直连模式，第四个wifi2为你公司或者其他有路由器翻墙的WiFi名走直连）
-# > 默认关闭根据wifi切换模式，如需开启，删除下方的"#"即可
-#running_mode_trigger=filter, filter, wifi1:all_direct, wifi2: all_direct
-# > dns_exclusion_list
 dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.pingan.com.cn, *.cmbchina.com
 
 
 
 
 [task_local]
-
-# > 请手动添加下面的订阅（京东签到集合）
-; https://github.com/ddgksf2013/Cuttlefish/raw/master/Jd/Task/jd_task.json
-# > 请手动添加下面的订阅（流媒体Task订阅集合）
-; https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/UI-Action.json
-# > 流媒体解锁查询
-event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体解锁查询, img-url=arrowtriangle.right.square.system, enabled=true
-
-
 
 
 [rewrite_local]
@@ -52,66 +33,52 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 [rewrite_remote]
 
 #>>>>>>>>>>>解锁会员
-https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockApp.conf, tag=墨鱼专属VIP[请自行添加hostname]@ddgksf2013
-https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf, tag=Spotify破解VIP@app2smile
-https://subweb.s3.fr-par.scw.cloud/Module/embyUnlocked.conf, tag=emby解锁会员权限
-https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf, tag=人人视频VIP@ddgksf2013
-https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf, tag=B站去广告+1080P高码率@ddgksf2013
-https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf, tag=酷我音乐VIP@ddgksf2013
-
+https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf, tag=Spotify
+https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf, tag=bilibili
+https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Bilibili_CC.conf, tag=bilibilisc
 
 #>>>>>>>>>>>软件增强
-https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/BaiduCloud.conf, tag=百度网盘倍速@ddgksf2013
-https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=微信解锁被屏蔽的URL@zZPiglet
-https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf, tag=Bilibili换区脚本@NobyDa
-https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本@Orz-3
-https://raw.githubusercontent.com/Orz-3/QuantumultX/master/TikTok.conf, tag=Tiktok解锁@Orz-3
-https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix评分@Orz-3
-;https://github.com/VirgilClyne/iRingo/raw/main/qxrewrite/Siri.qxrewrite, tag=Siri与搜索2.0@VirgilClyne
-;https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hant, tag=油管字幕翻译@id77
+https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/BaiduCloud.conf, tag=baidupan
+https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=wechat
+#https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf, tag=Bilibili换区脚本
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/TikTok.conf, tag=Tiktok
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix
 
 
 #>>>>>>>>>>>应用去广告
 https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/StartUp.conf, tag=应用去开屏广告@ddgksf2013
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎去广告及体验增强@blackmatrix7
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite, tag=什么值得买去广告@blackmatrix7
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎去广告及体验增强
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite, tag=什么值得买去广告
 https://github.com/app2smile/rules/raw/master/module/tieba-qx.conf, tag=百度贴吧超级去广告@app2smile
-https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Applet/QuanX.conf, tag=微信小程序去广告@ddgksf2013
-https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=油管去广告@DivineEngine
-https://github.com/zmqcherish/proxy-script/raw/main/weibo.conf, tag=微博去广告@zmqcherish
-https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Ximalaya.conf, tag=喜马拉雅去广告@ddgksf2013
+https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Applet/QuanX.conf, tag=微信小程序去广告
+https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=油管去广告
+https://github.com/zmqcherish/proxy-script/raw/main/weibo.conf, tag=微博去广告
+https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Ximalaya.conf, tag=喜马拉雅去广告
 
 
 #>>>>>>>>>>>通用去广告
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=去广告脚本@DivineEngine
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=去广告重写@DivineEngine
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=去广告重写@lhie1
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向@DivineEngine
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=去广告脚本
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=去广告重写
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=去广告重写
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向
 
 
 #>>>>>>>>>>>网页优化
 https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf, tag=影视网站去广告@ddgksf2013
-https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Function/Q-Search.conf, tag=Safari超级搜索@ddgksf2013
-;https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf, tag=Google自动翻页@langkhach
+https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Function/Q-Search.conf, tag=Safari超级搜索
+https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf, tag=Google自动翻页
 
-
-# > http_backend如果有问题，可以添加下面重写内容
-;https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJS商店版@chavyleung
 
 
 [server_local]
-
-# > 网易云音乐解锁魔法
-#http=music.lolico.me:39000, over-tls=false, fast-open=false, udp-relay=false, tag=网易云音乐解锁
 
 
 
 
 [server_remote]
 
-# > 魔法仅供临时使用[一]
 https://proxies.bihai.cf/vmess/sub?filter=r, tag=TemporaryUse, update-interval=172800, opt-parser=true, enabled=true
-# > 魔法仅供临时使用[二]
 https://openit.ml/Quanx.conf, tag=TemporaryUse, update-interval=172800, opt-parser=true, enabled=true
 
 
