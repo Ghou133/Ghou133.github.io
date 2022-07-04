@@ -11,27 +11,13 @@ excluded_routes=239.255.255.250/32, 24.105.30.129/32, 185.60.112.157/32, 185.60.
 udp_whitelist=1-442, 444-65535
 dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.pingan.com.cn, *.cmbchina.com
 
-
-
-
 [task_local]
 
-
 [rewrite_local]
-
 # > TF国区下载修正@id77
 ^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install url request-body storefrontId" : ".*" request-body storefrontId" : "143441-1,29"
-# > 替换支付宝内淘票票评分为豆瓣评分@Peng-YM
-^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopshowapi\.getextendshowbyid url script-response-body https://raw.githubusercontent.com/Peng-YM/QuanX/master/Rewrites/TaoPiaoPiao/taopiaopiao.js
-# > 豆瓣添加便捷播放按钮&展示在映流媒体平台@Neurogram-R
-^https?:\/\/m\.douban\.com\/movie\/subject\/.+ url script-response-body https://github.com/Neurogram-R/Quantumult-X/raw/main/Douban.js
-
-
-
-
 
 [rewrite_remote]
-
 #>>>>>>>>>>>解锁会员
 https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf, tag=Spotify
 https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf, tag=bilibili
@@ -40,34 +26,31 @@ https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/Bilibili_CC
 #>>>>>>>>>>>软件增强
 https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/UnlockVip/BaiduCloud.conf, tag=baidupan
 https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=wechat
-https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf, tag=Bilibili换区脚本
-https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价
+https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/BilibiliAutoRegion.conf, tag=BilibiliAutoRegion
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=JDTBprice
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/TikTok.conf, tag=Tiktok
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix
 
-
 #>>>>>>>>>>>应用去广告
-https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/StartUp.conf, tag=应用去开屏广告@ddgksf2013
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎去广告及体验增强
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite, tag=什么值得买去广告
-https://github.com/app2smile/rules/raw/master/module/tieba-qx.conf, tag=百度贴吧超级去广告@app2smile
-https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Applet/QuanX.conf, tag=微信小程序去广告
-https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=油管去广告
-https://github.com/zmqcherish/proxy-script/raw/main/weibo.conf, tag=微博去广告
-https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Ximalaya.conf, tag=喜马拉雅去广告
-
+https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/StartUp.conf, tag=StartUpAD
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=ZhihuAD
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite, tag=smzdmAD
+https://github.com/app2smile/rules/raw/master/module/tieba-qx.conf, tag=tiebaAD
+https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Applet/QuanX.conf, tag=wechatADs
+https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=YoutubeADs
+https://github.com/zmqcherish/proxy-script/raw/main/weibo.conf, tag=weiboAD
+https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/AdBlock/Ximalaya.conf, tag=ximalayaAD
 
 #>>>>>>>>>>>通用去广告
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=去广告脚本
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=去广告重写
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=去广告重写
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向
-
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=RewiriteAdvP
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=RewriteADv
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=RewriteAD
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=RewriteAD2
 
 #>>>>>>>>>>>网页优化
-https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf, tag=影视网站去广告@ddgksf2013
-https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Function/Q-Search.conf, tag=Safari超级搜索
-https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf, tag=Google自动翻页
+https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/WebAdBlock.conf, tag=WebAdBlock
+https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Function/Q-Search.conf, tag=SafariSearch
+https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/Function/EndlessGoogle.conf, tag=GoogleEndless
 
 #boxjs
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJS
@@ -75,13 +58,9 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 [server_local]
 
 
-
-
 [server_remote]
-
-https://proxies.bihai.cf/vmess/sub?filter=r, tag=TemporaryUse, update-interval=172800, opt-parser=true, enabled=true
-https://openit.ml/Quanx.conf, tag=TemporaryUse, update-interval=172800, opt-parser=true, enabled=true
-
+https://proxies.bihai.cf/vmess/sub?filter=r, tag=临时节点1, update-interval=172800, opt-parser=true, enabled=true
+https://openit.ml/Quanx.conf, tag=临时节点2, update-interval=172800, opt-parser=true, enabled=true
 
 
 
@@ -127,7 +106,7 @@ server=/*icloud.com.akadns.net/119.29.29.29
 static=Other, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 static=bilibili, HKTW, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 static=HKTW, server-tag-regex=(?=.*(港|HK|(?i)Hong|台|TW|(?i)Taiwan))^((?!(日|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-
+static=JP, server-tag-regex=(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
 
 
 
@@ -139,7 +118,7 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Chi
 https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt#type=rule, tag=ChinaIPv4, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 https://gaoyifan.github.io/china-operator-ip/chinanet6.txt#type=rule, tag=ChinaIPv6, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/Ghou133/Ghou133.github.io/master/archives/BL.list, tag=bilibili, update-interval=86400, opt-parser=true, enabled=true
-
+https://raw.githubusercontent.com/Ghou133/Ghou133.github.io/master/archives/DmmDLFz.list, tag=cygames, force-policy=JP, update-interval=86400, opt-parser=true, enabled=true
 
 
 [filter_local]
@@ -170,15 +149,9 @@ ip-cidr, 182.254.116.0/24, direct
 geoip, cn, direct
 final, proxy
 
-
-
-
 [http_backend]
 
-
-
 [mitm]
-hostname = testflight.apple.com, guide-acs.m.taobao.com, m.douban.com
-##########################################################################################################################################
-#####passphrase和p12代为证书&主机名部分, 更新配置前可把旧的配置中passphrase和p12代码拷贝下来, 导入新的配置文件把内容粘贴在对应位置就不用重装证书####
-##########################################################################################################################################
+passphrase = DEA67DBA
+p12 = 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
+hostname = testflight.apple.com, guide-acs.m.taobao.com
