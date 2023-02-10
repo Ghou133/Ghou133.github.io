@@ -1,5 +1,6 @@
+#三个远程串流
 DOMAIN-SUFFIX, parsec.app
 DOMAIN-SUFFIX, parsecusercontent.com
 DOMAIN-SUFFIX, anydesk.com
-DOMAIN-SUFFIX, nvidia.com
+#迅雷
 PROCESS-NAME, DownloadSDKServer.exe
