@@ -2,3 +2,4 @@ DOMAIN-SUFFIX, razersynapse.com
 DOMAIN-SUFFIX, razer.com
 PROCESS-NAME, RadeonSoftware.exe
 PROCESS-NAME, Razer Synapse Service.exe
+PROCESS-NAME, RazerCentralService.exe
