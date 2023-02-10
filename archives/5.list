@@ -3,4 +3,3 @@ DOMAIN-SUFFIX, parsecusercontent.com
 DOMAIN-SUFFIX, anydesk.com
 DOMAIN-SUFFIX, nvidia.com
 PROCESS-NAME, DownloadSDKServer.exe
-PROCESS-NAME, avp.exe
