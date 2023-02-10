@@ -1,3 +1,3 @@
 DOMAIN-SUFFIX, pixivlite.cn
 DOMAIN-SUFFIX, pixivlite.com
-IP-CIDR,210.140.92.148/32,no-resolve
+IP-CIDR,210.140.92.148/24,no-resolve
