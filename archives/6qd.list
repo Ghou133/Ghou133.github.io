@@ -1,5 +1,9 @@
-DOMAIN-SUFFIX, razersynapse.com
-DOMAIN-SUFFIX, razer.com
+#AMD驱动
 PROCESS-NAME, RadeonSoftware.exe
+#雷蛇
 PROCESS-NAME, Razer Synapse Service.exe
 PROCESS-NAME, RazerCentralService.exe
+DOMAIN-SUFFIX, razersynapse.com
+DOMAIN-SUFFIX, razer.com
+#微软
+PROCESS-NAME, SearchHost.exe
