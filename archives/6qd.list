@@ -1,5 +1,7 @@
 #AMD驱动
 PROCESS-NAME, RadeonSoftware.exe
+#Nvdia官网直连
+DOMAIN-SUFFIX, nvidia.com
 #雷蛇
 PROCESS-NAME, Razer Synapse Service.exe
 PROCESS-NAME, RazerCentralService.exe
