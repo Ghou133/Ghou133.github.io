@@ -4,8 +4,8 @@ DOMAIN-SUFFIX, pixivlite.com
 DOMAIN-SUFFIX, bravedefault.com
 #错误报告
 DOMAIN-SUFFIX, appcenter.ms
-#Pixiv原
+#Pixiv
 DOMAIN-SUFFIX, pixiv.nl
 #IP
-#IP-CIDR,210.140.92.148/16
+IP-CIDR,210.140.92.148/16
 #IP-CIDR,210.140.131.222/24
