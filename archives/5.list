@@ -1,5 +1,6 @@
 DOMAIN-SUFFIX, parsec.app
 DOMAIN-SUFFIX, parsecusercontent.com
 DOMAIN-SUFFIX, anydesk.com
-DOMAIN-SUFFIX, gamestream.nvidia.com
+DOMAIN-SUFFIX, nvidia.com
 PROCESS-NAME, DownloadSDKServer.exe
+PROCESS-NAME, avp.exe
