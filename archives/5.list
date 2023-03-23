@@ -4,3 +4,4 @@ DOMAIN-SUFFIX, parsecusercontent.com
 DOMAIN-SUFFIX, anydesk.com
 #迅雷
 PROCESS-NAME, DownloadSDKServer.exe
+PROCESS-NAME, BitComet.exe
