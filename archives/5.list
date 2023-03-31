@@ -11,4 +11,4 @@ PROCESS-NAME, svchost.exe
 #Steam下载
 DOMAIN-SUFFIX, akamaized.net
 #Steam有关
-DOMAIN-SUFFIX, steamstatic.com
+#DOMAIN-SUFFIX, steamstatic.com
