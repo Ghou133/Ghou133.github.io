@@ -36,12 +36,9 @@ DOMAIN-SUFFIX,www4.kanpani.jp
 DOMAIN-SUFFIX,www5.kanpani.jp
 DOMAIN-SUFFIX,login.kanpani.jp
 DOMAIN-SUFFIX,www2-2.kanpani.jp
-DOMAIN-SUFFIX,s3-ap-northeast-1.amazonaws.com
 DOMAIN-SUFFIX,203.104.209.55
 DOMAIN-SUFFIX,touken-ranbu.jp
-DOMAIN-SUFFIX,dovs9u514acja.cloudfront.net
 DOMAIN-SUFFIX,web.flower-knight-girls.co.jp
-DOMAIN-SUFFIX,flower-help.s3-website-ap-northeast-1.amazonaws.com
 DOMAIN-SUFFIX,kancolle-db.net
 DOMAIN-SUFFIX,res.nimg.jp
 #DOMAIN-SUFFIX,googleusercontent.com
@@ -50,7 +47,6 @@ DOMAIN-SUFFIX,res.nimg.jp
 DOMAIN-SUFFIX,203.104.209.102
 DOMAIN-SUFFIX,millennium-war.net
 DOMAIN-SUFFIX,flower-knight-girl.cdn.dmmgames.com
-DOMAIN-SUFFIX,dugrqaqinbtcq.cloudfront.net
 DOMAIN-SUFFIX,senpro.dmmgames.com
 DOMAIN-SUFFIX,img-r18-senpro.cdn.dmmgames.com
 DOMAIN-SUFFIX,assets.shiropro-re.net
@@ -58,7 +54,6 @@ DOMAIN-SUFFIX,api.shiropro-re.net
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,kamihimeproject.net
 DOMAIN-SUFFIX,mbga.jp
-DOMAIN-SUFFIX,gbf-wiki.com
 DOMAIN-SUFFIX,granbluefantasy.jp
 DOMAIN-SUFFIX,www.itchibanketsu.jp
 DOMAIN-SUFFIX,asset.itchibanketsu.jp
@@ -73,8 +68,6 @@ DOMAIN-SUFFIX,avatar.games.dmm.co.jp
 DOMAIN-SUFFIX,bungo.dmmgames.com
 DOMAIN-SUFFIX,210.140.108.205
 DOMAIN-SUFFIX,yashiro.dmmgames.com
-DOMAIN-SUFFIX,d2l18yyka3zu4o.cloudfront.net
-DOMAIN-SUFFIX,db695krnj9c0z.cloudfront.net
 DOMAIN-SUFFIX,203.104.248.5
 DOMAIN-SUFFIX,203.104.248.14
 DOMAIN-SUFFIX,accounts.dmm.co.jp
@@ -87,7 +80,6 @@ DOMAIN-SUFFIX,a.school-alchemist.com
 DOMAIN-SUFFIX,game.school-alchemist.com
 DOMAIN-SUFFIX,cf.r.skh.dmmgames.com
 DOMAIN-SUFFIX,cf.static.r.skh.dmmgames.com
-DOMAIN-SUFFIX,cdnjs.cloudflare.com
 DOMAIN-SUFFIX,w.kcwiki.moe
 DOMAIN-SUFFIX,icchibanketu.wikiru.jp
 DOMAIN-SUFFIX,search.yahoo.co.jp
@@ -116,20 +108,10 @@ DOMAIN-SUFFIX,adult.symphony-ec.jp
 DOMAIN-SUFFIX,info.symphony-ec.jp
 DOMAIN-SUFFIX,img.symphony-ec.jp
 DOMAIN-SUFFIX,blhx.danmu9.com
-DOMAIN-SUFFIX,maj-soul.com
-DOMAIN-SUFFIX,mahjongsoul.com
-DOMAIN-SUFFIX,tonofura-web-r.deepone-online.com
-DOMAIN-SUFFIX,tonofura-r-cdn-client.deepone-online.com
-DOMAIN-SUFFIX,tonofura-r-cdn-resource.deepone-online.com
 DOMAIN-SUFFIX,api.magicami.jp
 DOMAIN-SUFFIX,asset.magicami.jp
 DOMAIN-SUFFIX,game.magicami.jp
 DOMAIN-SUFFIX,static.magicami.jp
 DOMAIN-SUFFIX,d66zh4czgmp8a.cloudfront.net
-DOMAIN-SUFFIX,otogi-api.trafficmanager.net
-DOMAIN-SUFFIX,otogi.azureedge.net
-DOMAIN-SUFFIX,otogi-html.azurewebsites.net
-DOMAIN-SUFFIX,otogimigwest.blob.core.windows.net
-DOMAIN-SUFFIX,otogi-maintenance.azurewebsites.net
 DOMAIN-SUFFIX,taimanin-rpg.com
 DOMAIN-SUFFIX,zu9j1t6ekm.user-space.cdn.idcfcloud.net
