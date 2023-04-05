@@ -1,6 +1,0 @@
-#用了代理就上不去
-DOMAIN-SUFFIX, baozimh.com
-DOMAIN-SUFFIX, webmota.com
-DOMAIN-SUFFIX, hxcy.moe
-#不能是日本服务器，但图片服务器无限制
-DOMAIN-KEYWORD, copymanga
