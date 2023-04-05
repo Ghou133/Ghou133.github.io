@@ -8,6 +8,8 @@ PROCESS-NAME, DownloadSDKServer.exe
 PROCESS-NAME, BitComet.exe
 //Windows
 PROCESS-NAME, svchost.exe
+#OneDrive CN
+DOMAIN-KEYWORD, -my.sharepoint.cn
 #Steam下载
 DOMAIN-SUFFIX, akamaized.net
 DOMAIN-SUFFIX, steamcontent.com
