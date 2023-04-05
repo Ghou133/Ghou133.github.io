@@ -6,7 +6,7 @@ payload:
   - PROCESS-NAME, DownloadSDKServer.exe
 #比特彗星
   - PROCESS-NAME, BitComet.exe
-//Windows
+#Windows
   - PROCESS-NAME, svchost.exe
 #OneDrive CN
   - DOMAIN-KEYWORD, -my.sharepoint.cn
