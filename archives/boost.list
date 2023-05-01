@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX, answers.microsoft.com
 DOMAIN-SUFFIX, answerscdn.microsoft.com
 DOMAIN-SUFFIX, techcommunity.microsoft.com
+DOMAIN-SUFFIX, bing.com
 #根本上不去的首页
 DOMAIN-SUFFIX, onedrive.live.com
 #切换分流很麻烦
