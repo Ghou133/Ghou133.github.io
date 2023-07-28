@@ -1,6 +1,6 @@
 DOMAIN-SUFFIX, iprofiles.apple.com
 DOMAIN-SUFFIX, mdmenrollment.apple.com
 DOMAIN-SUFFIX, deviceenrollment.apple.com
-DOMAIN-SUFFIX, gdmf.apple.com
+#DOMAIN-SUFFIX, gdmf.apple.com
 DOMAIN-SUFFIX, acmdm.apple.com
 DOMAIN-SUFFIX, albert.apple.com
