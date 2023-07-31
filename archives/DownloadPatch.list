@@ -22,3 +22,6 @@ DOMAIN, uplaypc-s-ubisoft.cdn.ubi.com
 #origin游戏下载
 DOMAIN, origin-a.akamaihd.net
 DOMAIN-SUFFIX, ssl-lvlt.cdn.ea.com
+#windows更新
+DOMAIN-SUFFIX, update.microsoft.com
+DOMAIN-SUFFIX, update.windows.com
