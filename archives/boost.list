@@ -1,3 +1,6 @@
+#微软CDN，慢死了
+DOMAIN-SUFFIX, azureedge-test.net
+DOMAIN-SUFFIX, azureedge.net
 #微软社区，都是日常被阻断
 DOMAIN-SUFFIX, answers.microsoft.com
 DOMAIN-SUFFIX, answerscdn.microsoft.com
