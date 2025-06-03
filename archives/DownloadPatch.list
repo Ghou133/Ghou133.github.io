@@ -36,6 +36,23 @@ IP-CIDR,205.196.6.0/24,no-resolve
 IP-CIDR,208.64.200.0/22,no-resolve
 IP-CIDR,208.78.164.0/22,no-resolve
 IP-CIDR,205.185.194.0/24,no-resolve
+DOMAIN,ext1-hkg1.steamserver.net
+DOMAIN,ext2-hkg1.steamserver.net
+DOMAIN,ext3-hkg1.steamserver.net
+DOMAIN,ext4-hkg1.steamserver.net
+DOMAIN,ext5-hkg1.steamserver.net
+DOMAIN,ext6-hkg1.steamserver.net
+DOMAIN,ext7-hkg1.steamserver.net
+DOMAIN,ext1-tyo3.steamserver.net
+DOMAIN,ext2-tyo3.steamserver.net
+DOMAIN,ext3-tyo3.steamserver.net
+DOMAIN,ext4-tyo3.steamserver.net
+DOMAIN,ext1-sgp1.steamserver.net
+DOMAIN,ext2-sgp1.steamserver.net
+DOMAIN,ext3-sgp1.steamserver.net
+DOMAIN,ext4-sgp1.steamserver.net
+DOMAIN,ext1-lax1.steamserver.net
+DOMAIN,ext2-lax1.steamserver.net
 #Steam下载
 DOMAIN-SUFFIX, akamaized.net
 DOMAIN-SUFFIX, steamcontent.com
