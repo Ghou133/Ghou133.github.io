@@ -1,0 +1,11 @@
+#!name=local
+#!desc=local
+
+[URL Rewrite]
+#菠萝包SF轻小说去开屏广告
+^https:?/\/.*?sfacg.com/web/m/images/homePush/.*? - reject
+#刺猬猫去开屏大广告
+^https:?/\/c2.kuangxiangit.com/novel/img_index_recommend/startpage/.*? - reject
+
+[MITM]
+hostname = %APPEND% c2.kuangxiangit.com, *.sfacg.com
